@@ -12,5 +12,6 @@
     <h2>
         Seoul, South Korea
     </h2>
+    <hr>
 </body>
 </html>
