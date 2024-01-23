@@ -1,23 +1,14 @@
-/* LESSON 3 - Programming Tasks */
-
-/* FUNCTIONS */
-/* Function Definition - Add Numbers */
-// Function declaration for addition
 function add(number1, number2) {
     return number1 + number2;
 }
 
-// Function to perform addition using values from HTML form controls
 function addNumbers() {
-    // Get values from HTML form controls
     let addNumber1 = Number(document.querySelector('#add1').value);
     let addNumber2 = Number(document.querySelector('#add2').value);
 
-    // Call the add function and assign the result to the 'sum' form element
     document.querySelector('#sum').value = add(addNumber1, addNumber2);
 }
 
-// Add a "click" event listener to the button with ID 'addNumbers'
 document.querySelector('#addNumbers').addEventListener('click', addNumbers);
 
 
